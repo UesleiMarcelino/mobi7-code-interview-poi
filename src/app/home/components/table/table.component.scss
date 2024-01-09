@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+.example-table-container {
+  position: relative;
+  min-height: 200px;
+  max-height: 750px;
+  overflow: auto;
+}
+
+.spacing {
+  padding: 30px;
+}
