@@ -32,6 +32,7 @@ export class TableComponent implements OnInit {
       },
 
       error: (e: any) => {
+        console.log(e)
       }
     })
   }
@@ -44,6 +45,7 @@ export class TableComponent implements OnInit {
       },
 
       error: (e: any) => {
+        console.log(e)
       }
     })
   }
